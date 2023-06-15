@@ -1,6 +1,4 @@
-# Project Name
-
-DropBear.Templates.ClassLibrary
+# DropBear.Templates.ClassLibrary
 
 ## Description
 
