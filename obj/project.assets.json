@@ -1533,7 +1533,7 @@
     "C:\\Users\\terre\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "restore": {
       "projectUniqueName": "c:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
       "projectName": "DropBear.Templates.ClassLibrary",
