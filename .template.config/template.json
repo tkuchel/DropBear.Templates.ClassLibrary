@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "DropBear aka Terrence Kuchel",
+    "classifications": ["Common", "Library"],
+    "identity": "DropBear.Templates.ClassLibrary",
+    "name": "Basic Class Library that can be made into a Nuget Package",
+    "shortName": "DropBear.ClassLibrary",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }
