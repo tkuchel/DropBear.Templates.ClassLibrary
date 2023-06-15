@@ -29,6 +29,9 @@ jobs:
 
     - name: Pack
       run: dotnet pack --no-build --output nupkg
+      
+    - name: List files in current directory
+      run: ls -l
 
     - name: Push
       uses: rohith/publish-nuget@v2
