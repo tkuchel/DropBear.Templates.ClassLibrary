@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <!-- NuGet package information -->
     <PackageId>DropBear.Templates.ClassLibrary</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>DropBear aka Terrence Kuchel</Authors>
     <Company></Company>
     <Product></Product>
@@ -21,5 +21,6 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+    <Content Include=".template.config\**" PackagePath="content" Pack="true" />
   </ItemGroup>
 </Project>
