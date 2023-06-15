@@ -6,13 +6,14 @@
     <Nullable>enable</Nullable>
     <!-- NuGet package information -->
     <PackageId>DropBear.Templates.ClassLibrary</PackageId>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <Authors>DropBear aka Terrence Kuchel</Authors>
     <Company></Company>
     <Product></Product>
     <Description>A dotnet template for a class library with some base configuration done that can be packaged as a nuget package.</Description>
     <PackageTags>C#, dotnet, template, class library, nuget package</PackageTags>
     <PackageProjectUrl>https://github.com/tkuchel/DropBear.Templates.ClassLibrary</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
@@ -22,5 +23,6 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
     <Content Include=".template.config\**" PackagePath="content" Pack="true" />
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
