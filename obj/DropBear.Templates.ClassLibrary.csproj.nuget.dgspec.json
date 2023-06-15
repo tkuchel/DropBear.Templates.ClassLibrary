@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj": {}
+    "C:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj": {
+    "C:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj": {
       "version": "0.0.1",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
         "projectName": "DropBear.Templates.ClassLibrary",
-        "projectPath": "c:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
+        "projectPath": "C:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\terre\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\DropBear.Templates.ClassLibrary\\obj\\",
+        "outputPath": "C:\\Projects\\DropBear.Templates.ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\terre\\AppData\\Roaming\\NuGet\\NuGet.Config",
