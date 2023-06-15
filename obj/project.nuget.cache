@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8peNnb8irmi7YwVJtXWykdxKiut+jF5WYWGf711PJnSDXrSMfV5L/SXL3zhgL1ly6LxEJWz0jqpfKCoSsEQveQ==",
+  "dgSpecHash": "jvUL3/z0Dn7cb5LwQmwAw36z2WPsxN3U2NTQQL8/opSzab/Yek31df+zdnF3kcIsa8eWSxTuABP6TJIaOKU1AA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
+  "projectFilePath": "c:\\Projects\\DropBear.Templates.ClassLibrary\\DropBear.Templates.ClassLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\terre\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\terre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

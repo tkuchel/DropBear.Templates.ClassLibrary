@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <!-- NuGet package information -->
     <PackageId>DropBear.Templates.ClassLibrary</PackageId>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>DropBear aka Terrence Kuchel</Authors>
     <Company></Company>
     <Product></Product>
