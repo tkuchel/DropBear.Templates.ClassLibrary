@@ -12,7 +12,7 @@
     <Product></Product>
     <Description>A dotnet template for a class library with some base configuration done that can be packaged as a nuget package.</Description>
     <PackageTags>C#, dotnet, template, class library, nuget package</PackageTags>
-    <PackageProjectUrl>http://example.com/</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/tkuchel/DropBear.Templates.ClassLibrary</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 

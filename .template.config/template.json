@@ -4,7 +4,7 @@
     "classifications": ["Common", "Library"],
     "identity": "DropBear.Templates.ClassLibrary",
     "name": "Basic Class Library that can be made into a Nuget Package",
-    "shortName": "DropBear.ClassLibrary",
+    "shortName": "DropBear.Templates.ClassLibrary",
     "tags": {
       "language": "C#",
       "type": "project"
