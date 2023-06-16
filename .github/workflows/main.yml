@@ -25,9 +25,9 @@ jobs:
       run: dotnet build ./working/templatepack.csproj --no-restore
 
     - name: Pack
-      run: dotnet pack ./working/templatepack.csproj --no-build --output nupkg
+      run: dotnet pack ./working/templatepack.csproj --no-build --output ./working/nupkg
       
-    - name: List files in current directory
+    - name: List files in the working directory
       run: ls -l ./working
 
     - name: Push
@@ -36,3 +36,5 @@ jobs:
         PROJECT_FILE_PATH: ./working/templatepack.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
         VERSION_REGEX: '^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$'
+        PACKAGE_DIRECTORY: './working/nupkg'  # Add this line to specify the package directory
+
