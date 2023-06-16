@@ -31,10 +31,6 @@ jobs:
       run: ls -l ./working
 
     - name: Push
-      uses: rohith/publish-nuget@v2
-      with:
-        PROJECT_FILE_PATH: ./working/templatepack.csproj
-        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-        VERSION_REGEX: '^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$'
-        PACKAGE_DIRECTORY: './working/nupkg'  # Add this line to specify the package directory
+      run: dotnet nuget push ./working/nupkg/*.nupkg -s https://api.nuget.org/v3/index.json -k ${{secrets.NUGET_API_KEY}} --skip-duplicate
+
 
