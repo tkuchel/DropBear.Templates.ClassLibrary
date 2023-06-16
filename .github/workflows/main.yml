@@ -19,16 +19,13 @@ jobs:
         dotnet-version: '7.0.x' # adjust this to your project's .NET version
     
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./working/templatepack.csproj
 
     - name: Build
-      run: dotnet build --no-restore
-
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet build ./working/templatepack.csproj --no-restore
 
     - name: Pack
-      run: dotnet pack --no-build --output nupkg
+      run: dotnet pack ./working/templatepack.csproj --no-build --output nupkg
       
     - name: List files in current directory
       run: ls -l
@@ -36,5 +33,6 @@ jobs:
     - name: Push
       uses: rohith/publish-nuget@v2
       with:
-        PROJECT_FILE_PATH: DropBear.Templates.ClassLibrary.csproj
+        PROJECT_FILE_PATH: ./working/templatepack.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+        VERSION_REGEX: '^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$'
