@@ -21,7 +21,7 @@ To install this template globally on your machine:
 To create a new class library using this template:
 
 ```bash
-dotnet new DropBear.Templates.ClassLibrary
+dotnet new DropBear.CLT
 ```
 
 ## Uninstall
@@ -29,7 +29,7 @@ dotnet new DropBear.Templates.ClassLibrary
 To uninstall the template:
 
 ```bash
-dotnet new -u DropBear.Templates.ClassLibrary
+dotnet new -u DropBear.CLT
 ```
 
 ## Contributing

@@ -5,10 +5,11 @@
     <PackageVersion>0.0.7</PackageVersion>
     <PackageId>DropBear.Templates.ClassLibrary</PackageId>
     <Title>DropBear Template - Class Library</Title>
-    <Authors>DropBear aka Terrence Kuchel</Authors>
+    <Authors>Terrence Kuchel aka DropBear</Authors>
     <Description>This is a Basic Class Library that can be made into a Nuget Package.</Description>
     <PackageTags>dotnet-new;templates;dropbear;classlibrary</PackageTags>
-
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <TargetFramework>net7.0</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
@@ -19,6 +20,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+ 
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
