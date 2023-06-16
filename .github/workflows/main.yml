@@ -28,7 +28,7 @@ jobs:
       run: dotnet pack ./working/templatepack.csproj --no-build --output nupkg
       
     - name: List files in current directory
-      run: ls -l
+      run: ls -l ./working
 
     - name: Push
       uses: rohith/publish-nuget@v2
